@@ -12,5 +12,7 @@ Result: ```osxkeychain```
 
 When using ```git clone```, with a HTTPS endpoint, the username needs to be provided so the credential.helper knows the git endpoint needs to use a different username. [1]
 
+Tried this without username in the URL results in the following issue.
+
 # Links
 [1] https://stackoverflow.com/questions/24275375/how-can-i-store-keychain-credentials-for-multiple-github-accounts 

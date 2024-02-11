@@ -10,8 +10,10 @@ Install of brew:
 
 After installation has finished (will also be displayed in installation output):
 
-```(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/bart/.zprofile```
-```eval "$(/opt/homebrew/bin/brew shellenv)"```
+```
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/bart/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
 
 ## Packages
 

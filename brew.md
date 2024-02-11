@@ -15,8 +15,10 @@ After installation has finished (will also be displayed in installation output):
 
 ## Packages
 
-```brew install git wget curl```
-```brew install --cask firefox 1password wireshark vlc cleanshot whatsapp postman microsoft-remote-desktop microsoft-word microsoft-teams microsoft-excel microsoft-auto-update microsoft-outlook microsoft-powerpoint onedrive dbeaver-community miro tailscale```
+```
+brew install git wget curl
+brew install --cask firefox 1password wireshark vlc cleanshot whatsapp postman microsoft-remote-desktop microsoft-word microsoft-teams microsoft-excel microsoft-auto-update microsoft-outlook microsoft-powerpoint onedrive dbeaver-community miro tailscale
+```
 
 ## Notes
 

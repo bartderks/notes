@@ -6,8 +6,9 @@ When trying to use a github.com account in the ```git``` CLI tooling, I had an i
 
 Git CLI uses a credential helper where cached credentials are stored:
 
-```% git config --get credential.helper
-osxkeychain```
+```% git config --get credential.helper```
+
+Result: ```osxkeychain```
 
 When using ```git clone```, with a HTTPS endpoint, the username needs to be provided so the credential.helper knows the git endpoint needs to use a different username. [1]
 

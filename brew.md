@@ -6,7 +6,9 @@ Using the brew package manager (https://brew.sh) to install different applicatio
 
 Install of brew:
 
-```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 After installation has finished (will also be displayed in installation output):
 

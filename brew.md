@@ -21,12 +21,16 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 ```
 brew install git wget curl docker docker-compose bash
-brew install --cask firefox 1password wireshark vlc cleanshot whatsapp postman microsoft-remote-desktop microsoft-word microsoft-teams microsoft-excel microsoft-auto-update microsoft-outlook microsoft-powerpoint onedrive dbeaver-community miro tailscale google-chrome
+brew install --cask firefox 1password wireshark vlc cleanshot whatsapp postman microsoft-remote-desktop microsoft-word microsoft-teams microsoft-excel microsoft-auto-update microsoft-outlook microsoft-powerpoint onedrive dbeaver-community miro tailscale google-chrome sublime-text
 ```
 
 ## Notes
 
+### Microsoft
+
 I'm using individual microsoft-* packages since the microsoft-office / microsoft-office-businesspro packages also contain microsoft-onenote and I don't need that. Unfortunately Microsoft To Do looks like to be unavailable within homebrew. Maybe look for an alternative.
+
+For the microsoft-teams package it currently (2024-02) installs the Teams Classic client and not the new 'work or school' client. When logging in on the 'classic' client it will automatically refer you to installing the 'work or school' client after a short while.
 
 After installing docker-compose you need to execute the following commands since this is now seen as a plugin within Docker:
 
@@ -34,3 +38,5 @@ After installing docker-compose you need to execute the following commands since
 mkdir -p ~/.docker/cli-plugins
 ln -sfn /opt/homebrew/opt/docker-compose/bin/docker-compose ~/.docker/cli-plugins/docker-compose
 ```
+
+

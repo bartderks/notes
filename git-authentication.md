@@ -11,5 +11,5 @@ Git CLI uses a credential helper where cached credentials are stored. For MacOS,
 ```
 Result should display: ```osxkeychain```
 
-# Links
+## Links
 [1] https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens

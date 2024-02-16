@@ -1,21 +1,23 @@
-# brew.sh
+# Homebrew package manager for MacOS
 
-Using the brew package manager (https://brew.sh) to install different applications on my MacBook Pro.
+Using the Homebrew package manager (https://brew.sh) to install (and update) applications on my MacBook Pro. Not all applications are always updated using Homebrew. Most applications (especially casks) have internal update mechanisms in the application itself.
 
 ## Install
 
-Install of brew:
+Install of Homebrew:
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-After installation has finished (will also be displayed in installation output):
+After installation has finished execute the following (will also be displayed in installation output):
 
 ```
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/bart/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
+
+Please note that this still refers to using the zsh shell. I changed that, at a later stage, to bash and instead of putting the ```eval``` command in .zprofile you put it in .bash_profile
 
 ## Packages
 
@@ -32,11 +34,11 @@ I'm using individual microsoft-* packages since the microsoft-office / microsoft
 
 For the microsoft-teams package it currently (2024-02) installs the Teams Classic client and not the new 'work or school' client. When logging in on the 'classic' client it will automatically refer you to installing the 'work or school' client after a short while.
 
+### Docker
+
 After installing docker-compose you need to execute the following commands since this is now seen as a plugin within Docker:
 
 ```
 mkdir -p ~/.docker/cli-plugins
 ln -sfn /opt/homebrew/opt/docker-compose/bin/docker-compose ~/.docker/cli-plugins/docker-compose
 ```
-
-

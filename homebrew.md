@@ -42,3 +42,12 @@ After installing docker-compose you need to execute the following commands since
 mkdir -p ~/.docker/cli-plugins
 ln -sfn /opt/homebrew/opt/docker-compose/bin/docker-compose ~/.docker/cli-plugins/docker-compose
 ```
+
+Update 20240318: Looks like this has changed again. brew upgrade now reports:
+
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+
+Created ~/.docker/config.json file and added the suggested cliPluginsExtraDirs element.

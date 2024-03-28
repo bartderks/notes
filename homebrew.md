@@ -23,7 +23,7 @@ Please note that this still refers to using the zsh shell. I changed that, at a 
 
 ```
 brew install git wget curl docker docker-compose bash testssl
-brew install --cask firefox 1password wireshark vlc cleanshot whatsapp postman microsoft-remote-desktop microsoft-word microsoft-teams microsoft-excel microsoft-auto-update microsoft-outlook microsoft-powerpoint onedrive dbeaver-community miro tailscale google-chrome sublime-text amethyst
+brew install --cask firefox 1password wireshark vlc cleanshot whatsapp postman microsoft-remote-desktop microsoft-word microsoft-teams microsoft-excel microsoft-auto-update microsoft-outlook microsoft-powerpoint onedrive dbeaver-community miro tailscale google-chrome sublime-text amethyst balenaetcher
 ```
 
 ## Notes

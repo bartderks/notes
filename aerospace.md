@@ -77,6 +77,10 @@ run = "move-node-to-workspace 7"
 [[on-window-detected]]
 if.app-id = 'org.jkiss.dbeaver.core.product'
 run = "move-node-to-workspace 7"
+
+[[on-window-detected]]
+if.app-id = 'com.microsoft.rdc.macos'
+run = "move-node-to-workspace 9"
 ```
 
 Will clean-up/further tweak configuration later, will update this document if so.

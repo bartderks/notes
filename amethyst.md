@@ -1,5 +1,7 @@
 # Amethyst - MacOS Window Manager
 
+20240927 UPDATE: SWITCHED TO AEROSPACE INSTEAD OF AMETHYST, SEE AEROSPACE.MD FOR MORE DETAILS
+
 Amethyst is a tiling Window Manager for MacOS. [1]
 
 ## Installation

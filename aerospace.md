@@ -59,7 +59,7 @@ if.app-id = 'com.microsoft.teams2'
 run = "move-node-to-workspace 4"
 
 [[on-window-detected]]
-if.app-id = 'org.alacritty'
+if.app-id = 'com.github.wez.wezterm'
 run = "move-node-to-workspace 5"
 
 [[on-window-detected]]
@@ -77,6 +77,15 @@ run = "move-node-to-workspace 7"
 [[on-window-detected]]
 if.app-id = 'org.jkiss.dbeaver.core.product'
 run = "move-node-to-workspace 7"
+
+[[on-window-detected]]
+if.app-id = 'com.sublimetext.4'
+run = "move-node-to-workspace 7"
+
+[[on-window-detected]]
+if.app-id = 'org.jkiss.dbeaver.core.product'
+check-further-callbacks = true
+run = "layout tiling"
 
 [[on-window-detected]]
 if.app-id = 'com.microsoft.rdc.macos'

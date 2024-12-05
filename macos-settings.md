@@ -14,3 +14,8 @@ defaults write NSGlobalDomain AppleShowScrollBars -string "Always"; killall Find
 ```
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true; killall Finder
 ```
+* Auto hide dock
+```
+defaults write com.apple.dock autohide -bool true && killall Dock
+defaults write com.apple.dock no-bouncing -bool TRUE && killall Dock
+```

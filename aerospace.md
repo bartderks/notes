@@ -19,8 +19,8 @@ brew install --cask nikitabobko/tap/aerospace
 Create a default config in ~/.config/aerospace/aerospace.toml
 
 I used the following video/blog post as a initial guide to setup a proper first configuration:
-https://www.youtube.com/watch?v=-FoWClVHG5g
-https://www.josean.com/posts/how-to-setup-aerospace-tiling-window-manager
+* https://www.youtube.com/watch?v=-FoWClVHG5g
+* https://www.josean.com/posts/how-to-setup-aerospace-tiling-window-manager
 
 Primarily made the following changes in the config file:
 
